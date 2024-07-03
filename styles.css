@@ -1,0 +1,25 @@
+tr{
+    position: relative;
+}
+
+.button{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn-primary{
+    background-color: rgb(40, 40, 197);
+}
+.deleteButton{
+    background-color: red;
+}
+
+tr:hover .button {
+    display: block;
+}
+
+.editButton:hover {
+    color: black;
+}
